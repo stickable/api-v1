@@ -37,7 +37,7 @@ e.g. `OurCompanyName.init({contact});`
   A contact is written as a [Javascript Object Literal](http://www.dyn-web.com/tutorials/object-literal/) and may contain any of the following fields:
 
   | Parameter   | Description | Optional |
-  |-------------|-------------|
+  |-------------|-------------|-|
   | `email`     | Email address. This is the only required field. | No |
   | `first`     | First name | Yes |
   | `last`      | Last name | Yes |
@@ -73,7 +73,7 @@ Resource URL
 
   | Parameter | Description |
   |-----------|-------------|
-  | `{version}` | Version of the plugin you wish to load.  Currently only `v1`
+  | `{version}` | Version of the plugin you wish to load.  Currently only `v1` |
   | `{clientId}` | Your 36-character long unique client ID (includes letters, numbers, and hyphens. |
 
   e.g. `https://domain.com/pixel/v1/2ef0361b-e44b-49ec-9509-45c3c57e96b4/plugin.js`
